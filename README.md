@@ -1,2 +1,2 @@
-# Arista_Labs
-All labs and configs with Arista EOS
+# Arista_notes
+My notes on networking with Arista EOS.
