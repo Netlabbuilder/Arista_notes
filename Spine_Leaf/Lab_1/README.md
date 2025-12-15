@@ -1,11 +1,11 @@
 ### Lab 1 - Layer 3 Spine-Leaf with eBGP ECMP Underlay
 Lab Overview:
-- Layer 3 Spine-Leaf network with eBGP ECMP as Underlay routing.
-- Two spine and six leaf switches.
-- Each leaf switch has its own BGP AS number.
-- Two spine switches have the same BGP AS number.
-- BGP peering (eBGP) between spine and leaf switches.
-- No BGP peering between spine switches and no BGP peering between leaf switches.
+- Layer 3 Spine-Leaf network with eBGP ECMP as underlay routing.
+- Two Spine and six Leaf switches.
+- Each Leaf switch has its own BGP AS number.
+- Two Spine switches have the same BGP AS number.
+- BGP peering (eBGP) between Spine and Leaf switches.
+- No BGP peering between Spine switches and no BGP peering between Leaf switches.
 
 Lab Deployment:
 - Deploy the lab with topology file 'spine_leaf.clab.yml':
