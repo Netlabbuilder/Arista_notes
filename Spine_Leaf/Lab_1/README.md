@@ -1,5 +1,6 @@
 ### Lab 1 - Layer 3 Spine-Leaf with eBGP ECMP Underlay
 Lab Overview:
+- This lab is built with containerlab and Arista cEOS docker image.
 - Layer 3 Spine-Leaf network with eBGP ECMP as underlay routing.
 - Two Spine and six Leaf switches.
 - Each Leaf switch has its own BGP AS number.
