@@ -2,17 +2,18 @@
 <details>
 <summary>Lab Overview</summary>
    
-* This lab is built with containerlab and Arista cEOS docker image
-* Layer 3 Spine-Leaf network with eBGP ECMP as underlay routing
-* Two Spine and six Leaf switches
-* Each Leaf switch has its own BGP AS number
-* Two Spine switches have the same BGP AS number
-* BGP peering (eBGP) between Spine and Leaf switches
-* No BGP peering between Spine switches and no BGP peering between Leaf switches.
+   - This lab is built with containerlab and Arista cEOS docker image
+   - Layer 3 Spine-Leaf network with eBGP ECMP as underlay routing
+   - Two Spine and six Leaf switches
+   - Each Leaf switch has its own BGP AS number
+   - Two Spine switches have the same BGP AS number
+   - BGP peering (eBGP) between Spine and Leaf switches
+   - No BGP peering between Spine switches and no BGP peering between Leaf switches.
 
 </details>
 
-**Lab Topologies**
+<details>
+<summary>Lab Topologies</summary>
 
 - Figure-1 - Underlay IPv4 Addressing
 
@@ -22,7 +23,11 @@
 
 ![Underlay Routing with eBGP](topologies/Lab_1%20-%20Underlay%20Routing%20with%20eBGP.png)
 
-**Lab Deployment**
+</details>
+
+<details>
+<summary>Lab Deployment</summary>
+
 - Deploy the lab with topology file 'spine_leaf.clab.yml':
 ```
 ~/clab-arista$ clab deploy -t spine_leaf.clab.yml
@@ -200,5 +205,11 @@ Ma0  leaf_3             Management0      120
 
 spine_1#
 ```
-**Lab Configuration**
-- The working configuration for all Spine and Leaf devices is placed in "configs"
+</details>
+
+<details>
+<summary>Lab Configuration</summary>
+
+   - The working configuration for all Spine and Leaf devices is placed in "configs" folder. [Click here](configs) to go there. 
+
+</details>
