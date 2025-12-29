@@ -210,6 +210,6 @@ spine_1#
 <details>
 <summary>Lab Configuration</summary>
 
-   - The working configuration for all Spine and Leaf devices is placed in "configs" folder. [Click here](configs) to go there. 
+   - The working configuration for all Spine and Leaf devices is placed in "configs" folder, [click here](configs) to go there. 
 
 </details>
