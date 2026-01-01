@@ -15,13 +15,17 @@
 <details>
 <summary>Lab Topologies</summary>
 
-- Figure-1 - Underlay IPv4 Addressing
+- Figure-1 - Physical Connectivity
+  
+![Physical Connectivity](topologies/Lab_1%20-%20Physical%20Connectivity.png)
 
-![Underlay IPv4 Addressing](topologies/Lab_1%20-%20Underlay%20IPv4%20Addressing.png)
+- Figure-2 - Underlay Addressing - IPv4
 
-- Figure-2 - Underlay Routing with eBGP
+![Underlay Addressing - IPv4](topologies/Lab_1%20-%20Underlay%20Addressing%20-%20IPv4.png)
 
-![Underlay Routing with eBGP](topologies/Lab_1%20-%20Underlay%20Routing%20with%20eBGP.png)
+- Figure-3 - Underlay Routing - eBGP
+
+![Underlay Routing - eBGP](topologies/Lab_1%20-%20Underlay%20Routing%20-%20eBGP.png)
 
 </details>
 
