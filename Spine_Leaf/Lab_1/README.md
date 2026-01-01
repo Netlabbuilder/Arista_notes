@@ -2,12 +2,12 @@
 <details>
 <summary>Lab Overview</summary>
    
-   - This lab is built with containerlab and Arista cEOS docker image
-   - Layer 3 Spine-Leaf network with eBGP ECMP as underlay routing
-   - Two Spine and four Leaf switches
-   - Each Leaf switch has its own BGP AS number
-   - Two Spine switches have the same BGP AS number
-   - BGP peering (eBGP) between Spine and Leaf switches
+   - This lab is built with containerlab and Arista cEOS docker image.
+   - Layer 3 Spine-Leaf network (3-stage Clos Fabric) with eBGP ECMP as underlay routing.
+   - Two Spine and four Leaf switches.
+   - Each Leaf switch has its own BGP AS number.
+   - Two Spine switches have the same BGP AS number.
+   - BGP peering (eBGP) between Spine and Leaf switches.
    - No BGP peering between Spine switches and no BGP peering between Leaf switches.
 
 </details>
