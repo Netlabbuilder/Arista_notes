@@ -6,7 +6,7 @@
     ceos1#show run int ethernet 1
     interface Ethernet1
     
-    ceos2#show int status
+    ceos1#show int status
     Port       Name   Status       Vlan     Duplex Speed  Type            Flags Encapsulation
     Et1               connected    1        full   1G     EbraTestPhyPort
     Ma0               connected    routed   a-full a-1G   10/100/1000
